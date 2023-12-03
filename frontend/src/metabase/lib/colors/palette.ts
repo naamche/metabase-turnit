@@ -6,37 +6,54 @@ export const ACCENT_COUNT = 8;
 // NOTE: DO NOT ADD COLORS WITHOUT EXTREMELY GOOD REASON AND DESIGN REVIEW
 // NOTE: KEEP SYNCRONIZED WITH COLORS.CSS
 export const colors = {
+  /* CHANGED */
   brand: "#0B487B",
+  /* CHANGED */
   summarize: "#F7941D",
+  /* CHANGED */
   filter: "#F7941D",
+  /* CHANGED */
   accent0: "#0B487B",
+  /* CHANGED */
   accent1: "#F7941D",
   accent2: "#A989C5",
   accent3: "#EF8C8C",
   accent4: "#FFC553",
+  /* CHANGED */
   accent5: "#F7941D",
   accent6: "#4872A9",
+  /* CHANGED */
   accent7: "#F7941D",
+  /* CHANGED */
   "admin-navbar": "#F7941D",
   white: "#FFFFFF",
   black: "#2E353B",
+  /* CHANGED */
   success: "#2E7D32",
   danger: "#F44336",
   error: "#F44336",
   warning: "#F0A600",
+  /* CHANGED */
   "text-dark": "rgba(0, 0, 0, 0.87)",
-  "text-medium": "rgba(0, 0, 0, 0.6)",
-  "text-light": "#868686",
+  /* CHANGED */
+  "text-medium": "rgba(0, 0, 0, 0.7)",
+  /* CHANGED */
+  "text-light": "rgba(0, 0, 0, 0.6)",
   "text-white": "#FFFFFF",
   "bg-black": "#2E353B",
   "bg-dark": "#93A1AB",
+  /* CHANGED */
   "bg-medium": "#f0f0f0",
+  /* CHANGED */
   "bg-light": "#f5f5f5",
   "bg-white": "#FFFFFF",
   "bg-yellow": "#FFFCF2",
   "bg-night": "#42484E",
+  /* CHANGED */
   "bg-error": "#F4433655",
-  shadow: "transparent",
+  /* CHANGED */
+  shadow: "rgba(0, 0, 0, 0.13)",
+  /* CHANGED */
   border: "rgba(0, 0, 0, 0.12)",
 
   /* Saturated colors for the SQL editor. Shouldn't be used elsewhere since they're not white-labelable. */

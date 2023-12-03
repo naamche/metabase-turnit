@@ -18,7 +18,8 @@
 .LineAreaBarChart .dc-chart .axis text {
   font-size: 12px;
   font-family: var(--default-font-family), sans-serif;
-  font-weight: 900;
+  /* CHANGED */
+  /* font-weight: 900; */
 }
 
 .LineAreaBarChart .dc-chart .axis .domain,
@@ -27,12 +28,14 @@
 }
 
 .LineAreaBarChart .dc-chart .axis .tick text {
-  fill: var(--color-text-medium);
+  /* CHANGED */
+  fill: var(--color-text-dark);
 }
 
 .LineAreaBarChart .dc-chart g.row text.outside {
-  fill: var(--color-text-medium);
-  font-weight: 900;
+  /* CHANGED */
+  fill: var(--color-text-dark);
+  /* font-weight: 900; */
 }
 .LineAreaBarChart .dc-chart g.row text.inside {
   fill: white;
@@ -49,9 +52,10 @@
 
 .LineAreaBarChart .dc-chart .x-axis-label,
 .LineAreaBarChart .dc-chart .y-axis-label {
-  fill: var(--color-text-medium);
+  /* CHANGED */
+  fill: var(--color-text-dark);
   font-size: 14px;
-  font-weight: 900;
+  /* CHANGED */
 }
 
 /* disable grid lines */

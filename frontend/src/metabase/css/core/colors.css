@@ -2,23 +2,32 @@
  * NOTE: KEEP SYNCRONIZED WITH COLORS.JS
  */
 :root {
-  --color-admin-navbar: #F7941D;
+  /* CHANGED */
+  --color-admin-navbar: #f7941d;
   --color-white: #ffffff;
   --color-black: #2e353b;
-  --color-success: #2E7D32;
-  --color-error: #F44336;
-  --color-warning: #F0A600;
+  /* CHANGED */
+  --color-success: #2e7d32;
+  --color-error: #f44336;
+  --color-warning: #f0a600;
+  /* CHANGED */
   --color-text-dark: rgba(0, 0, 0, 0.87);
-  --color-text-medium: rgba(0, 0, 0, 0.6);
-  --color-text-light: #868686;
+  /* CHANGED */
+  --color-text-medium: rgba(0, 0, 0, 0.7);
+  /* CHANGED */
+  --color-text-light: rgba(0, 0, 0, 0.6);
   --color-text-white: #ffffff;
   --color-bg-black: #2e353b;
   --color-bg-dark: #93a1ab;
+  /* CHANGED */
   --color-bg-medium: #f0f0f0;
+  /* CHANGED */
   --color-bg-light: #f5f5f5;
   --color-bg-white: #ffffff;
   --color-bg-yellow: #fffcf2;
-  --color-shadow: transparent;
+  /* CHANGED */
+  --color-shadow: rgba(0, 0, 0, 0.13);
+  /* CHANGED */
   --color-border: rgba(0, 0, 0, 0.12);
 }
 

@@ -29,32 +29,39 @@ const LineAreaBarChart = ({
   colors: instanceColors,
 }: LineAreaBarChartProps) => {
   const chartStyle: ChartStyle = {
-    fontFamily: "Lato, sans-serif",
+    /* CHANGED */
+    fontFamily: "Roboto, sans-serif",
     axes: {
       color: getColor("text-light"),
       ticks: {
-        color: getColor("text-medium"),
+        /* CHANGED */
+        color: getColor("text-dark"),
         fontSize: 12,
       },
       labels: {
-        color: getColor("text-medium"),
+        /* CHANGED */
+        color: getColor("text-dark"),
         fontSize: 14,
-        fontWeight: 700,
+        /* CHANGED */
+        fontWeight: 500,
       },
     },
     legend: {
       fontSize: 14,
       lineHeight: 20,
-      fontWeight: 700,
+      /* CHANGED */
+      fontWeight: 500,
     },
     value: {
       color: getColor("text-dark"),
       fontSize: 12,
-      fontWeight: 800,
+      /* CHANGED */
+      fontWeight: 500,
       stroke: getColor("white"),
       strokeWidth: 3,
     },
-    goalColor: getColor("text-medium"),
+    /* CHANGED */
+    goalColor: getColor("text-dark"),
   };
 
   const series = pipe(
