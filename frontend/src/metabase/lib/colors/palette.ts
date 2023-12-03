@@ -38,7 +38,7 @@ export const colors = {
   /* CHANGED */
   "text-medium": "rgba(0, 0, 0, 0.7)",
   /* CHANGED */
-  "text-light": "rgba(0, 0, 0, 0.6)",
+  "text-light": "#868686",
   "text-white": "#FFFFFF",
   "bg-black": "#2E353B",
   "bg-dark": "#93A1AB",
