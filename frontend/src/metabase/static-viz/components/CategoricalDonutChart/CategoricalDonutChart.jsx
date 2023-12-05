@@ -25,8 +25,9 @@ const layout = {
   width: 540,
   height: 540,
   margin: 20,
+  // CHANGED
   font: {
-    family: "Lato, sans-serif",
+    family: "Inter, sans-serif",
     weight: 700,
   },
   colors: {

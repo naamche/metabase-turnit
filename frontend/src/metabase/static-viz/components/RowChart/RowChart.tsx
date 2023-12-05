@@ -101,7 +101,8 @@ const StaticRowChart = ({ data, settings, getColor }: StaticRowChartProps) => {
   const fullChartHeight = HEIGHT + legendHeight;
 
   return (
-    <svg width={WIDTH} height={fullChartHeight} fontFamily="Lato">
+    // CHANGED
+    <svg width={WIDTH} height={fullChartHeight} fontFamily="Inter">
       {legend && (
         <Legend
           items={legend.items}

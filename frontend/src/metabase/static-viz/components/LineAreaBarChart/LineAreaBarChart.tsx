@@ -30,7 +30,7 @@ const LineAreaBarChart = ({
 }: LineAreaBarChartProps) => {
   const chartStyle: ChartStyle = {
     /* CHANGED */
-    fontFamily: "Roboto, sans-serif",
+    fontFamily: "Inter, sans-serif",
     axes: {
       color: getColor("text-light"),
       ticks: {

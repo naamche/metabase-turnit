@@ -3,7 +3,8 @@ import type { RowChartTheme } from "metabase/visualizations/shared/components/Ro
 
 export const getStaticChartTheme = (
   getColor: ColorGetter,
-  fontFamily = "Lato",
+  // Changed
+  fontFamily = "Inter",
 ): RowChartTheme => {
   return {
     axis: {

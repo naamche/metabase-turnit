@@ -22,6 +22,7 @@
                         "Oswald"           "Oswald"
                         "Ubuntu"           "Ubuntu"
                         "Montserrat"       "Montserrat"
+                        "Inter"            "Inter"
                         "Lora"             "Lora"}]
     (testing (pr-str (list 'u.fonts/normalize-font-dirname s))
       (is (= expected
@@ -34,6 +35,6 @@
 
 (deftest available-font-predicate-test
   (testing "A valid font on the system returns `true`."
-    (is (u.fonts/available-font? "Lato")))
+    (is (u.fonts/available-font? "Inter")))
   (testing "An invalid font on the system returns `false`."
     (is (not (u.fonts/available-font? "Comic Sans")))))

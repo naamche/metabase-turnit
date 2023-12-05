@@ -24,7 +24,8 @@
 
 (def ^:const color-gold
   "Used as color for 'We were unable to display this Pulse' messages."
-  "#F9D45C")
+  ;; CHANGED
+  "#FBBF24")
 
 (def ^:const color-error
   "Color for error messages."
@@ -73,7 +74,8 @@
 (defn font-style
   "Font family to use in rendered Pulses."
   []
-  {:font-family "Lato, \"Helvetica Neue\", Helvetica, Arial, sans-serif"})
+  ;; CHANGED
+  {:font-family "Inter, \"Helvetica Neue\", Helvetica, Arial, sans-serif"})
 
 (defn section-style
   "CSS style for a Pulse section."

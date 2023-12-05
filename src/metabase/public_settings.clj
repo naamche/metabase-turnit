@@ -403,7 +403,8 @@
   (deferred-tru "This will replace “Lato” as the font family.")
   :visibility :public
   :type       :string
-  :default    "Lato"
+  ;; CHANGED
+  :default    "Inter"
   :enabled?   premium-features/enable-whitelabeling?
   :audit      :getter
   :setter     (fn [new-value]

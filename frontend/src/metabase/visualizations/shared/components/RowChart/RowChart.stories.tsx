@@ -74,5 +74,6 @@ Default.args = {
 
   measureTextWidth,
 
-  style: { fontFamily: "Lato" },
+  // CHANGED
+  style: { fontFamily: "Inter" },
 };

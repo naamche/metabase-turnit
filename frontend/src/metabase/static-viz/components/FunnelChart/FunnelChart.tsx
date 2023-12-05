@@ -27,7 +27,8 @@ const layout = {
   stepTextOffset: 8,
   colors: {
     textMedium: "#949aab",
-    brand: "#509ee3",
+    // CHANGED
+    brand: "#0061ac",
     border: "#f0f0f0",
   },
   paddingLeft: 10,

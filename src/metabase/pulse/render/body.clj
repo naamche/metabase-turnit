@@ -413,10 +413,11 @@
 
 (def ^:private colors
   "Colors to cycle through for charts. These are copied from https://stats.metabase.com/_internal/colors"
-  ["#509EE3" "#88BF4D" "#A989C5" "#EF8C8C" "#F9D45C" "#F2A86F" "#98D9D9" "#7172AD" "#6450e3" "#4dbf5e"
-   "#c589b9" "#efce8c" "#b5f95c" "#e35850" "#554dbf" "#bec589" "#8cefc6" "#5cc2f9" "#55e350" "#bf4d4f"
-   "#89c3c5" "#be8cef" "#f95cd0" "#50e3ae" "#bf974d" "#899bc5" "#ef8cde" "#f95c67"])
-
+  ;; CHANGED
+  ["#0061ac" "#84CC16" "#A855F7" "#F87171" "#FBBF24" "#ef8c48" "#06B6D4" "#6366F1" "#4338CA" "#22C55E"
+   "#F59E0B" "#A16207" "#15803D" "#0E7490" "#2563EB" "#bec589" "#BE185D" "#065F46" "#55e350" "#B91C1C"
+   "#2ab5ff" "#A21CAF" "#D946EF" "#4D7C0F" "#D97706" "#3B82F6" "#14B8A6" "#DB2777"])
+   
 (defn format-percentage
   "Format a percentage which includes site settings for locale. The first arg is a numeric value to format. The second
   is an optional string of decimal and grouping symbols to be used, ie \".,\". There will soon be a values.clj file
@@ -453,7 +454,8 @@
   [legend-entries]
   (letfn [(table-fn [entries]
             (into [:table {:style (style/style {:color       "#4C5773"
-                                                :font-family "Lato, sans-serif"
+            ;; CHANGED
+                                                :font-family "Inter, sans-serif"
                                                 :font-size   "24px"
                                                 :font-weight "bold"
                                                 :box-sizing  "border-box"

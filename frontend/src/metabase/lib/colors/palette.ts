@@ -7,25 +7,29 @@ export const ACCENT_COUNT = 8;
 // NOTE: KEEP SYNCRONIZED WITH COLORS.CSS
 export const colors = {
   /* CHANGED */
-  brand: "#0B487B",
+  brand: "#0061ac",
   /* CHANGED */
-  summarize: "#F7941D",
+  summarize: "#ef8c48",
   /* CHANGED */
-  filter: "#F7941D",
+  filter: "#ef8c48",
   /* CHANGED */
-  accent0: "#0B487B",
+  accent0: "#0061ac",
   /* CHANGED */
-  accent1: "#F7941D",
-  accent2: "#A989C5",
-  accent3: "#EF8C8C",
-  accent4: "#FFC553",
+  accent1: "#84CC16",
   /* CHANGED */
-  accent5: "#F7941D",
-  accent6: "#4872A9",
+  accent2: "#A855F7",
   /* CHANGED */
-  accent7: "#F7941D",
+  accent3: "#F87171",
   /* CHANGED */
-  "admin-navbar": "#F7941D",
+  accent4: "#FBBF24",
+  /* CHANGED */
+  accent5: "#ef8c48",
+  /* CHANGED */
+  accent6: "#010101",
+  /* CHANGED */
+  accent7: "#4338CA",
+  /* CHANGED */
+  "admin-navbar": "#4338CA",
   white: "#FFFFFF",
   black: "#2E353B",
   /* CHANGED */

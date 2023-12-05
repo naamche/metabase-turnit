@@ -11,7 +11,8 @@ const aceEditorStyle = css`
   }
 
   .ace_search {
-    font-family: Lato;
+    // CHANGED
+    font-family: Inter;
     background-color: ${color("bg-light")};
     color: ${color("text-dark")};
     border-color: ${color("border")};

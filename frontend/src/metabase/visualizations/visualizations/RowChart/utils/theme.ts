@@ -1,7 +1,8 @@
 import { color } from "metabase/lib/colors";
 import type { RowChartTheme } from "metabase/visualizations/shared/components/RowChart/types";
 
-export const getChartTheme = (fontFamily: string = "Lato"): RowChartTheme => {
+// CHANGED
+export const getChartTheme = (fontFamily: string = "Inter"): RowChartTheme => {
   return {
     axis: {
       color: color("text-light"),
