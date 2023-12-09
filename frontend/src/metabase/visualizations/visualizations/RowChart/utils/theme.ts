@@ -17,7 +17,7 @@ export const getChartTheme = (fontFamily: string = "Inter"): RowChartTheme => {
       label: {
         size: 14,
         /* CHANGED */
-        weight: 500,
+        weight: 600,
         /* CHANGED */
         color: color("text-dark"),
         family: fontFamily,

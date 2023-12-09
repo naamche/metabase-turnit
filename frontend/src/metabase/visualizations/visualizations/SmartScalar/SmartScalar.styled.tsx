@@ -21,7 +21,8 @@ export const VariationIcon = styled(Icon)`
 `;
 
 export const VariationValue = styled(Ellipsified)`
-  font-weight: 900;
+  // CHANGED
+  font-weight: 500;
 `;
 
 export const VariationTooltip = styled(Ellipsified)`
@@ -38,6 +39,9 @@ export const PreviousValueContainer = styled.div`
   align-items: center;
   display: flex;
   flex-wrap: wrap;
+  & h4 {
+    font-weight: 500 !important;
+  }
   justify-content: center;
   margin: ${space(0)} ${space(1)};
   gap: ${space(0)};
