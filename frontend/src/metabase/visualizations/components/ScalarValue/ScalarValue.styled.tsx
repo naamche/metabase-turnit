@@ -52,6 +52,8 @@ export const ScalarTitleContent = styled.h3`
   text-align: center;
   overflow: hidden;
   cursor: ${props => props.onClick && "pointer"};
+  // CHANGED
+  font-weight: 600;
   &:hover {
     color: ${color("brand")};
   }
