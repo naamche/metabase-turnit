@@ -106,7 +106,8 @@ export function getLeftHeaderWidths({
   rowIndexes,
   getColumnTitle,
   leftHeaderItems = [],
-  fontFamily = "Lato",
+  // CHANGED
+  fontFamily = "Inter",
 }: GetLeftHeaderWidthsProps) {
   const cellValues = getColumnValues(leftHeaderItems);
 

@@ -3,8 +3,9 @@ export const DEFAULT = {
     ["donut", 2000],
     ["cronut", 3100],
   ],
+  // CHANGED
   colors: {
-    donut: "#509EE3",
+    donut: "#0061ac",
     cronut: "#DDECFA",
   },
 };

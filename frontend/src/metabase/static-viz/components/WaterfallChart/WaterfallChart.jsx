@@ -69,24 +69,30 @@ function WaterfallChart({
   labels,
   getColor,
 }) {
+  // CHANGED
   const chartStyle = {
-    fontFamily: "Lato, sans-serif",
+    fontFamily: "Inter, sans-serif",
     axes: {
-      color: getColor("text-light"),
+  // CHANGED
+      color: getColor("text-dark"),
       ticks: {
-        color: getColor("text-medium"),
+  // CHANGED
+        color: getColor("text-dark"),
         fontSize: 12,
       },
       labels: {
-        color: getColor("text-medium"),
+  // CHANGED
+        color: getColor("text-dark"),
         fontSize: 14,
-        fontWeight: 700,
+  // CHANGED
+        // fontWeight: 700,
       },
     },
     value: {
       color: getColor("text-dark"),
       fontSize: 12,
-      fontWeight: 800,
+  // CHANGED
+      // fontWeight: 800,
       stroke: getColor("white"),
       strokeWidth: 3,
     },

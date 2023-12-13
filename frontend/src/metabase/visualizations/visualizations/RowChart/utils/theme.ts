@@ -1,20 +1,25 @@
 import { color } from "metabase/lib/colors";
 import type { RowChartTheme } from "metabase/visualizations/shared/components/RowChart/types";
 
-export const getChartTheme = (fontFamily: string = "Lato"): RowChartTheme => {
+// CHANGED
+export const getChartTheme = (fontFamily: string = "Inter"): RowChartTheme => {
   return {
     axis: {
       color: color("text-light"),
       ticks: {
         size: 12,
-        weight: 900,
-        color: color("text-medium"),
+        /* CHANGED */
+        weight: 500,
+        /* CHANGED */
+        color: color("text-dark"),
         family: fontFamily,
       },
       label: {
         size: 14,
-        weight: 900,
-        color: color("text-medium"),
+        /* CHANGED */
+        weight: 600,
+        /* CHANGED */
+        color: color("text-dark"),
         family: fontFamily,
       },
     },
@@ -28,7 +33,8 @@ export const getChartTheme = (fontFamily: string = "Lato"): RowChartTheme => {
       },
     },
     dataLabels: {
-      weight: 900,
+      /* CHANGED */
+      weight: 500,
       color: color("text-dark"),
       size: 12,
       family: fontFamily,

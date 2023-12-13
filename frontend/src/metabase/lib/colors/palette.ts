@@ -6,45 +6,66 @@ export const ACCENT_COUNT = 8;
 // NOTE: DO NOT ADD COLORS WITHOUT EXTREMELY GOOD REASON AND DESIGN REVIEW
 // NOTE: KEEP SYNCRONIZED WITH COLORS.CSS
 export const colors = {
-  brand: "#509EE3",
-  summarize: "#88BF4D",
-  filter: "#7172AD",
-  accent0: "#509EE3",
-  accent1: "#88BF4D",
-  accent2: "#A989C5",
-  accent3: "#EF8C8C",
-  accent4: "#F9D45C",
-  accent5: "#F2A86F",
-  accent6: "#98D9D9",
-  accent7: "#7172AD",
-  "admin-navbar": "#7172AD",
+  /* CHANGED */
+  brand: "#0061ac",
+  /* CHANGED */
+  summarize: "#ef8c48",
+  /* CHANGED */
+  filter: "#ef8c48",
+  /* CHANGED */
+  accent0: "#0061ac",
+  /* CHANGED */
+  accent1: "#84CC16",
+  /* CHANGED */
+  accent2: "#A855F7",
+  /* CHANGED */
+  accent3: "#F87171",
+  /* CHANGED */
+  accent4: "#FBBF24",
+  /* CHANGED */
+  accent5: "#ef8c48",
+  /* CHANGED */
+  accent6: "#06B6D4",
+  /* CHANGED */
+  accent7: "#4338CA",
+  /* CHANGED */
+  "admin-navbar": "#4338CA",
   white: "#FFFFFF",
   black: "#2E353B",
-  success: "#84BB4C",
-  danger: "#ED6E6E",
-  error: "#ED6E6E",
-  warning: "#F9CF48",
-  "text-dark": "#4C5773",
-  "text-medium": "#696E7B",
-  "text-light": "#949AAB",
+  /* CHANGED */
+  success: "#2E7D32",
+  danger: "#F44336",
+  error: "#F44336",
+  warning: "#F0A600",
+  /* CHANGED */
+  "text-dark": "rgba(0, 0, 0, 0.87)",
+  /* CHANGED */
+  "text-medium": "rgba(0, 0, 0, 0.7)",
+  /* CHANGED */
+  "text-light": "#868686",
   "text-white": "#FFFFFF",
   "bg-black": "#2E353B",
   "bg-dark": "#93A1AB",
-  "bg-medium": "#EDF2F5",
-  "bg-light": "#F9FBFC",
+  /* CHANGED */
+  "bg-medium": "#f0f0f0",
+  /* CHANGED */
+  "bg-light": "#f5f5f5",
   "bg-white": "#FFFFFF",
   "bg-yellow": "#FFFCF2",
   "bg-night": "#42484E",
-  "bg-error": "#ED6E6E55",
-  shadow: "rgba(0,0,0,0.08)",
-  border: "#EEECEC",
+  /* CHANGED */
+  "bg-error": "#F4433655",
+  /* CHANGED */
+  shadow: "rgba(0, 0, 0, 0.13)",
+  /* CHANGED */
+  border: "rgba(0, 0, 0, 0.12)",
 
   /* Saturated colors for the SQL editor. Shouldn't be used elsewhere since they're not white-labelable. */
   "saturated-blue": "#2D86D4",
   "saturated-green": "#70A63A",
   "saturated-purple": "#885AB1",
-  "saturated-red": "#ED6E6E",
-  "saturated-yellow": "#F9CF48",
+  "saturated-red": "#F44336",
+  "saturated-yellow": "#F0A600",
 };
 /* eslint-enable no-color-literals */
 

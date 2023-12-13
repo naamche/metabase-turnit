@@ -3,20 +3,23 @@ import type { RowChartTheme } from "metabase/visualizations/shared/components/Ro
 
 export const getStaticChartTheme = (
   getColor: ColorGetter,
-  fontFamily = "Lato",
+  // Changed
+  fontFamily = "Inter",
 ): RowChartTheme => {
   return {
     axis: {
       color: getColor("bg-dark"),
       ticks: {
         size: 12,
-        weight: 700,
+        /* CHANGED */
+        weight: 500,
         color: getColor("bg-dark"),
         family: fontFamily,
       },
       label: {
         size: 14,
-        weight: 700,
+        /* CHANGED */
+        weight: 500,
         color: getColor("bg-dark"),
         family: fontFamily,
       },
@@ -25,13 +28,15 @@ export const getStaticChartTheme = (
       lineStroke: getColor("text-medium"),
       label: {
         size: 14,
-        weight: 700,
+        /* CHANGED */
+        weight: 500,
         color: getColor("text-medium"),
         family: fontFamily,
       },
     },
     dataLabels: {
-      weight: 700,
+      /* CHANGED */
+      weight: 500,
       color: getColor("text-dark"),
       size: 12,
       family: fontFamily,

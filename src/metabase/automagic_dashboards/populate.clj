@@ -52,14 +52,15 @@
   "A vector of colors used for coloring charts. Uses [[public-settings/application-colors]] for user choices."
   []
   (let [order [:brand :accent1 :accent2 :accent3 :accent4 :accent5 :accent6 :accent7]
-        colors-map (merge {:brand   "#509EE3"
-                           :accent1 "#88BF4D"
-                           :accent2 "#A989C5"
-                           :accent3 "#EF8C8C"
-                           :accent4 "#F9D45C"
-                           :accent5 "#F2A86F"
-                           :accent6 "#98D9D9"
-                           :accent7 "#7172AD"}
+  ;; CHANGED
+        colors-map (merge {:brand   "#0061ac"
+                           :accent1 "#84CC16"
+                           :accent2 "#A855F7"
+                           :accent3 "#F87171"
+                           :accent4 "#FBBF24"
+                           :accent5 "#ef8c48"
+                           :accent6 "#06B6D4"
+                           :accent7 "#4338CA"}
                           (public-settings/application-colors))]
     (into [] (map colors-map) order)))
 

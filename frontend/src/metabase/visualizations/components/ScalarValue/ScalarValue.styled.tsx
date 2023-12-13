@@ -26,6 +26,8 @@ export const ScalarValueWrapper = styled.h1<ScalarValueWrapperProps>`
   display: inline;
   font-size: ${props => props.fontSize};
   cursor: pointer;
+  // CHANGED
+  font-weight: 500;
 
   &:hover {
     color: ${color("brand")};
@@ -50,7 +52,8 @@ export const ScalarTitleContent = styled.h3`
   text-align: center;
   overflow: hidden;
   cursor: ${props => props.onClick && "pointer"};
-
+  // CHANGED
+  font-weight: 600;
   &:hover {
     color: ${color("brand")};
   }

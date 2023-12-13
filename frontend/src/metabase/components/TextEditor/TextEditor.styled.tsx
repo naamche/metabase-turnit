@@ -14,7 +14,8 @@ export const TextEditorRoot = styled.div`
     font-weight: bold;
   }
   .ace_string {
-    color: #a989c5;
+    // CHANGED
+    color: #a855f7;
     font-weight: bold;
   }
   .ace_variable.ace_class {

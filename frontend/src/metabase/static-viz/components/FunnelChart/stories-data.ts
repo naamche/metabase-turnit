@@ -20,7 +20,8 @@ export const DEFAULT: FunnelProps = {
     },
     colors: {
       textMedium: "#949aab",
-      brand: "#509ee3",
+      // CHANGED
+      brand: "#0061ac",
       border: "#f0f0f0",
     },
     visualization_settings: {},
