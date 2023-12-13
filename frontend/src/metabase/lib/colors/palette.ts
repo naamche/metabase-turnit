@@ -25,7 +25,7 @@ export const colors = {
   /* CHANGED */
   accent5: "#ef8c48",
   /* CHANGED */
-  accent6: "#010101",
+  accent6: "#06B6D4",
   /* CHANGED */
   accent7: "#4338CA",
   /* CHANGED */
